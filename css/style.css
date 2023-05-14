@@ -62,6 +62,25 @@
   font-size: 16px;
   line-height: 24px;
   color: #434455;
+  letter-spacing: 0.02em;
+}
+.contacts:hover {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #404bbf;
+  letter-spacing: 0.02em;
+}
+.contacts:focus {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #404bbf;
+  letter-spacing: 0.02em;
 }
 .page-header {
   background-color: #ffffff;
@@ -74,7 +93,9 @@
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
   color: #ffffff;
 }
 .button {
@@ -82,16 +103,11 @@
   height: 56px;
   left: 636px;
   top: 428px;
-
-  /* IRIS */
-
   background: #4d5ae5;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   border-style: none;
-}
-.button-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -101,24 +117,36 @@
   letter-spacing: 0.04em;
   color: #ffffff;
 }
-.sectiontwo-title {
-  width: 264px;
-  height: 72px;
-
-  /* Body */
-
-  font-family: "Roboto";
+.button:hover:focus {
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+  background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  /* or 150% */
-
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.sectiontwo-title {
+  width: 264px;
+  height: 72px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-
-  /* SLATE */
-
-  color: #434455;
+  color: #2e2f42;
 }
 .sectiontwo-text {
   width: 264px;
@@ -144,7 +172,9 @@
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .team-title {
@@ -152,7 +182,10 @@
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 40px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .footer-text {
@@ -204,12 +237,8 @@
 }
 .button-portfolio {
   background: #f4f4fd;
-  /* CORNFLOWER */
-
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-}
-.button-portfolio-text {
   font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -223,11 +252,14 @@
   background-color: #f4f4fd;
   cursor: pointer;
 }
-.list .button-portfolio:hover:focus {
+.list .button-portfolio:hover {
   color: #ffffff;
   background-color: #404bbf;
 }
-
+.list .button-portfolio:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
 .portfolio-icon {
   width: 360px;
   height: 420px;
