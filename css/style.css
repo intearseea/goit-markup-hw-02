@@ -31,7 +31,29 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  letter-spacing: 0.02em;
+
   color: #2e2f42;
+}
+.nav-list:hover {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: #404bbf;
+}
+.nav-list:focus {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+
+  color: #404bbf;
 }
 .contacts {
   font-family: "Roboto";
@@ -188,22 +210,24 @@
   border-radius: 4px;
 }
 .button-portfolio-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 24px;
-  /* identical to box height, or 150% */
-
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   display: flex;
   align-items: center;
   text-align: center;
-  letter-spacing: 0.04em;
-
-  /* IRIS */
-
   color: #4d5ae5;
+  background-color: #f4f4fd;
+  cursor: pointer;
 }
+.list .button-portfolio:hover:focus {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
 .portfolio-icon {
   width: 360px;
   height: 420px;
