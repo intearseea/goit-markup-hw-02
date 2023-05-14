@@ -1,0 +1,254 @@
+.link {
+  text-decoration: none;
+}
+.logo-web {
+  width: 44px;
+  height: 21px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4d5ae5;
+}
+.logo {
+  width: 71px;
+  height: 21px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #2e2f42;
+}
+ul,
+ol {
+  list-style: none;
+}
+.nav-list {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #2e2f42;
+}
+.contacts {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #434455;
+}
+.page-header {
+  background-color: #ffffff;
+}
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.button {
+  width: 169px;
+  height: 56px;
+  left: 636px;
+  top: 428px;
+
+  /* IRIS */
+
+  background: #4d5ae5;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border-style: none;
+}
+.button-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+.sectiontwo-title {
+  width: 264px;
+  height: 72px;
+
+  /* Body */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: #434455;
+}
+.sectiontwo-text {
+  width: 264px;
+  height: 72px;
+
+  /* Body */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: #434455;
+}
+.sectionthree-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #2e2f42;
+}
+.team-title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  color: #2e2f42;
+}
+.footer-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.logo-footer {
+  width: 71px;
+  height: 21px;
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f4f4fd;
+}
+.section-team {
+  background-color: #f4f4fd;
+}
+.stuff-icon {
+  background-color: #ffffff;
+  width: 264px;
+  height: 380px;
+}
+.stuff-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.stuff-role {
+  width: 128px;
+  height: 24px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #434455;
+}
+.button-portfolio {
+  background: #f4f4fd;
+  /* CORNFLOWER */
+
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+.button-portfolio-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+
+  /* IRIS */
+
+  color: #4d5ae5;
+}
+.portfolio-icon {
+  width: 360px;
+  height: 420px;
+  background: #ffffff;
+  /* CORNFLOWER */
+
+  border: 1px solid #e7e9fc;
+}
+.portfolio-icon-title {
+  /* Header 3 */
+
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: 0.02em;
+
+  /* NAVY BLUE */
+
+  color: #2e2f42;
+}
+.portfolio-icon-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  letter-spacing: 0.02em;
+
+  /* SLATE */
+
+  color: #434455;
+}
