@@ -9,6 +9,7 @@
 }
 
 body {
+  font-family: "Roboto", sans-serif;
   color: var(--secondory-font-color-slate);
   background-color: var(--main-light-color);
 }
@@ -70,7 +71,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--secondory-light-color);
+  color: var(--secondory-font-color-slate);
   letter-spacing: 0.02em;
 }
 .contacts:hover {
@@ -187,7 +188,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondory-light-color);
+  color: var(--secondory-font-color-slate);
 }
 .sectionthree-title {
   font-family: "Roboto";
@@ -204,7 +205,7 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -255,7 +256,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
 
-  color: var(--secondory-light-color);
+  color: var(--secondory-font-color-slate);
 }
 .button-portfolio {
   background: var(--third-light-color-cloud);
@@ -304,5 +305,5 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondory-light-color);
+  color: var(--secondory-font-color-slate);
 }
